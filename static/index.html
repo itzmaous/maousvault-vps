@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Đăng nhập bằng Discord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <style>
+        body {
+            background-color: #121212;
+            font-family: Arial, sans-serif;
+            color: white;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        h1 {
+            color: #ec4b4b;
+        }
+        .btn {
+            margin-top: 20px;
+            background: #f25858;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn i {
+            margin-right: 10px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+        }
+        .footer a {
+            color: #ec4b4b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Đăng nhập bằng Discord</h1>
+        <p>Nhấp vào nút bên dưới để đăng nhập bằng tài khoản Discord của bạn:</p>
+        <button class="btn"><i class="fab fa-discord"></i> Đăng nhập bằng Discord</button>
+        <div class="footer">
+            Powered by Maous Vault<br>
+            <a href="https://discord.gg/GUpUjKDuuH">https://discord.gg/maousvault</a>
+        </div>
+    </div>
+</body>
+</html>
